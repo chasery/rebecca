@@ -1,0 +1,21 @@
+{
+    "name": "rebecca",
+    "displayName": "Rebecca",
+    "description": "The future was cooler in the 80's. This is a theme dedicated to the popular emacs rebecca-theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rebecca",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Rebecca-color-theme.json"
+            }
+        ]
+    }
+}
