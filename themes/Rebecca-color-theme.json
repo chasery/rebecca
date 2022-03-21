@@ -4,38 +4,77 @@
 	"colors": {
 		// General
 		"focusBorder": "#a0a0c5",
-		"foreground": "#f1eff8",
+		"foreground": "#a0a0c5",
 		"selection.background": "#663399",
-		"descriptionForeground": "#6dfedf",
+		"descriptionForeground": "#2de0a7",
 		"errorForeground": "#ff91cd",
-		"icon.foreground": "#6dfedf",
+		"icon.foreground": "#2de0a7",
 		"sash.hoverBorder": "#a0a0c5",
 		// ActivityBar
 		"activityBar.background": "#25263d",
-		"activityBar.dropBorder": "#474c70",
-		"activityBar.foreground": "#6dfedf",
-		"activityBar.inactiveForeground": "#474c70",
-		"activityBar.activeBorder": "#6dfedf",
+		"activityBar.dropBorder": "#66669980",
+		"activityBar.foreground": "#2de0a7",
+		"activityBar.inactiveForeground": "#66669980",
+		"activityBar.activeBorder": "#2de0a7",
 		"activityBar.activeBackground": "#292a44",
-		"activityBar.activeFocusBorder": "#474c70",
-		"activityBarBadge.background": "#6dfedf",
-		"activityBarBadge.foreground": "#12131d",
+		"activityBar.activeFocusBorder": "#66669980",
+		"activityBarBadge.background": "#2de0a7",
+		"activityBarBadge.foreground": "#292a44",
 		// Badge
-		"badge.background": "#6dfedf", // Green
-		"badge.foreground": "#12131d", // Black text
+		"badge.background": "#2de0a7", // Green
+		"badge.foreground": "#292a44", 
+		// Button
+		"button.background": "#2de0a7",
+		"button.foreground": "#292a44",
+		"button.hoverBackground": "#6dfedf",
+		"button.secondaryForeground": "#f1eff8",
+		"button.secondaryBackground": "#66669980",
+		"button.secondaryHoverBackground": "#545569",
+		"checkbox.background": "#292a4400",
+		"checkbox.foreground": "#2de0a7",
+		"checkbox.border": "#2de0a7",
 		// Editor
 		"editor.background": "#292a44", // Background
 		"editor.foreground": "#f1eff8", // Text
+		// List
+		"list.activeSelectionBackground": "#666699",
+		"list.activeSelectionForeground": "#f1eff8",
+		"list.activeSelectionIconForeground": "#f1eff8",
+		"list.dropBackground": "#25263d",
+		"list.focusBackground": "#666699",
+		"list.focusForeground": "#f1eff8",
+		"list.focusHighlightForeground": "#f1eff8",
+		"list.focusOutline": "#a0a0c500",
+		"list.highlightForeground": "#f1eff8",
+		"list.hoverBackground": "#383a62",
+		"list.hoverForeground": "#f1eff8",
+		"list.inactiveSelectionBackground": "#383a62",
+		"list.inactiveSelectionForeground": "#f1eff8",
+		"list.inactiveSelectionIconForeground": "#f1eff8",
+		"list.inactiveFocusBackground": "#2de0a7",
+		// "list.inactiveFocusOutline": List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+		"list.invalidItemForeground": "#666699",
+		"list.errorForeground": "#ff79c6",
+		"list.warningForeground": "#efe4a1",
+		// "listFilterWidget.background": List/Tree Filter background color of typed text when searching inside the list/tree.
+		// "listFilterWidget.outline": List/Tree Filter Widget's outline color of typed text when searching inside the list/tree.
+		// "listFilterWidget.noMatchesOutline": List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree.
+		// "list.filterMatchBackground": Background color of the filtered matches in lists and trees.
+		// "list.filterMatchBorder": Border color of the filtered matches in lists and trees.
+		// "list.deemphasizedForeground": List/Tree foreground color for items that are deemphasized.
+		// "tree.indentGuidesStroke": Tree Widget's stroke color for indent guides.
+		// "tree.tableColumnsBorder": Tree stroke color for the indentation guides.
+		// "tree.tableOddRowsBackground": Background color for odd table rows.
 		// ProgressBar
-		"progressBar.background": "#6dfedf",
+		"progressBar.background": "#2de0a7",
 		// SideBar
 		"sideBar.background": "#292a44",
-		"sideBar.border": "#474c70", // Border
+		"sideBar.border": "#66669980", // Border
 		"sideBar.dropBackground": "#25263d", // Background @10% darker
-		"sideBarTitle.foreground": "#6dfedf",
+		"sideBarTitle.foreground": "#2de0a7",
 		"sideBarSectionHeader.background": "#292a44",
 		"sideBarSectionHeader.foreground": "#a0a0c5",
-		"sideBarSectionHeader.border": "#474c70",
+		"sideBarSectionHeader.border": "#66669980",
 		//Text
 		// "textBlockQuote.background": "#6dfedf",
 		// "textBlockQuote.border": "#",
@@ -45,28 +84,60 @@
 		// "textPreformat.foreground": "#",
 		// "textSeparator.foreground": "#",
 		// EditorGroups
-		"editorGroup.border": "#474c70",
+		"editorGroup.border": "#66669980",
 		"editorGroup.dropBackground": "#25263d",
 		"editorGroupHeader.noTabsBackground": "#25263d",
 		"editorGroupHeader.tabsBackground": "#25263d",
 		"editorGroup.emptyBackground": "#25263d",
-		"editorGroup.focusedEmptyBorder": "#474c70",
+		"editorGroup.focusedEmptyBorder": "#66669980",
 		"tab.activeBackground": "#292a44",
 		"tab.unfocusedActiveBackground": "#292a44",
-		"tab.activeForeground": "#6dfedf",
-		"tab.activeBorderTop": "#6dfedf",
-		"tab.unfocusedActiveBorderTop": "#474c70",
-		"tab.lastPinnedBorder": "#474c7000", // 0 Opacity
+		"tab.activeForeground": "#2de0a7",
+		"tab.activeBorderTop": "#2de0a7",
+		"tab.unfocusedActiveBorderTop": "#66669980",
+		"tab.lastPinnedBorder": "#66669900", // 0 Opacity
 		"tab.inactiveBackground": "#25263d",
-		"tab.inactiveForeground": "#474c70",
-		"tab.unfocusedActiveForeground": "#474c70",
+		"tab.inactiveForeground": "#666699",
+		"tab.unfocusedActiveForeground": "#666699",
 		"tab.unfocusedHoverForeground": "#6dfedf",
 		"tab.activeModifiedBorder": "#efe4a1",
 		"tab.inactiveModifiedBorder": "#efe4a1",
-		"sideBySideEditor.horizontalBorder": "#6dfedf",
-		"sideBySideEditor.verticalBorder": "#6dfedf",
-
-
+		// "sideBySideEditor.horizontalBorder": "#6dfedf",
+		// "sideBySideEditor.verticalBorder": "#6dfedf",
+		// TitleBar
+		"titleBar.activeBackground": "#383a62",
+		"titleBar.activeForeground": "#f1eff8",
+		"titleBar.inactiveBackground": "#212236",
+		"titleBar.inactiveForeground": "#a0a0c5",
+		// StatusBar
+		"statusBar.background": "#2de0a7",
+		"statusBar.foreground": "#292a44",
+		"statusBar.debuggingBackground": "#efe4a1",
+		"statusBar.debuggingForeground": "#292a44",
+		"statusBar.noFolderForeground": "#a0a0c5",
+		"statusBar.noFolderBackground": "#212236",
+		"statusBarItem.activeBackground": "#6dfedf",
+		"statusBarItem.hoverBackground": "#6dfedf",
+		"statusBarItem.prominentForeground": "#292a44",
+		"statusBarItem.prominentBackground": "#2de0a7",
+		"statusBarItem.remoteBackground": "#2de0a7",
+		"statusBarItem.remoteForeground": "#292a44",
+		"statusBarItem.errorBackground": "#ff79c6",
+		"statusBarItem.errorForeground": "#292a44",
+		"statusBarItem.warningBackground": "#efe4a1",
+		"statusBarItem.warningForeground": "#292a44",
+		"statusBarItem.compactHoverBackground": "#6dfedf",
+		// TODO: Menu - PC only
+		// "menubar.selectionForeground": "#292a44",
+		// "menubar.selectionBackground": "#6dfedf",
+		// "menubar.selectionBorder": Border color of the selected menu item in the menubar.
+		// "menu.foreground": "#6dfedf",
+		// "menu.background": "#292a44",
+		// "menu.selectionForeground": Foreground color of the selected menu item in menus.
+		// "menu.selectionBackground": Background color of the selected menu item in menus.
+		// "menu.selectionBorder": Border color of the selected menu item in menus.
+		// "menu.separatorBackground": Color of a separator menu item in menus.
+		// "menu.border": Border color of menus.
 	},
 	"tokenColors": [
 		{
