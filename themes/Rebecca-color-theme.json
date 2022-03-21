@@ -51,20 +51,17 @@
 		"list.inactiveSelectionBackground": "#383a62",
 		"list.inactiveSelectionForeground": "#f1eff8",
 		"list.inactiveSelectionIconForeground": "#f1eff8",
-		"list.inactiveFocusBackground": "#2de0a7",
-		// "list.inactiveFocusOutline": List/Tree outline color for the focused item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not.
+		"list.inactiveFocusBackground": "#383a62",
 		"list.invalidItemForeground": "#666699",
 		"list.errorForeground": "#ff79c6",
 		"list.warningForeground": "#efe4a1",
-		// "listFilterWidget.background": List/Tree Filter background color of typed text when searching inside the list/tree.
-		// "listFilterWidget.outline": List/Tree Filter Widget's outline color of typed text when searching inside the list/tree.
-		// "listFilterWidget.noMatchesOutline": List/Tree Filter Widget's outline color when no match is found of typed text when searching inside the list/tree.
-		// "list.filterMatchBackground": Background color of the filtered matches in lists and trees.
-		// "list.filterMatchBorder": Border color of the filtered matches in lists and trees.
-		// "list.deemphasizedForeground": List/Tree foreground color for items that are deemphasized.
-		// "tree.indentGuidesStroke": Tree Widget's stroke color for indent guides.
-		// "tree.tableColumnsBorder": Tree stroke color for the indentation guides.
-		// "tree.tableOddRowsBackground": Background color for odd table rows.
+		"listFilterWidget.background": "#383a62",
+		"listFilterWidget.noMatchesOutline": "#ff79c6",
+		"list.filterMatchBackground": "#383a62",
+		"list.deemphasizedForeground": "#383a62",
+		"tree.indentGuidesStroke": "#666699",
+		"tree.tableColumnsBorder": "#66669980",
+		"tree.tableOddRowsBackground": "#25263d",
 		// ProgressBar
 		"progressBar.background": "#2de0a7",
 		// SideBar
