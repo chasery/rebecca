@@ -328,7 +328,9 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
+				"keyword.operator.logical",
+				"keyword.operator.ternary"
 			],
 			"settings": {
 				"foreground": "#ff79c6"
@@ -369,7 +371,7 @@
 			"scope": [
 				"keyword",
 				"entity.other.attribute-name",
-				"punctuation.definition.binding-pattern.array"
+				"punctuation.definition.binding-pattern.array",
 			],
 			"settings": {
 				"foreground": "#ae81ff"
