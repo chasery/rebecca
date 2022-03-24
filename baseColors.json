@@ -1,0 +1,65 @@
+{
+  "colors": {
+    "background": "#292a44",
+    "lighter-background": {
+      "primary": "#663399",
+      "secondary": "#8700d7"
+    },
+    "selection-background": {
+      "primary": "#383a62",
+      "secondary": "#303030"
+    },
+    "comments-invisibles": {
+      "primary": "#666699",
+      "secondary": "#5f5f87"
+    },
+    "dark-foreground": {
+      "primary": "#a0a0c5",
+      "secondary": "#8787af"
+    },
+    "default-foreground": {
+      "primary": "#f1eff8",
+      "secondary": "#e4e4e4"
+    },
+    "light-foreground": {
+      "primary": "#ccccff",
+      "secondary": "#afafff"
+    },
+    "light-background": {
+      "primary": "#53495d",
+      "secondary": "#4e4e4e"
+    },
+    "variables": {
+      "primary": "#a0a0c5",
+      "secondary": "#afafd7"
+    },
+    "constants": {
+      "primary": "#efe4a1",
+      "secondary": "#ffff87"
+    },
+    "search-text-background": {
+      "primary": "#ae81ff",
+      "secondary": "#af5fff"
+    },
+    "strings": {
+      "primary": "#6dfedf",
+      "secondary": "#87ffd7"
+    },
+    "regex-escaped-chars": {
+      "primary": "#8eaee0",
+      "secondary": "#87afd7"
+    },
+    "functions": {
+      "primary": "#2de0a7",
+      "secondary": "#5fd7af"
+    },
+    "keywords": {
+      "primary": "#7aa5ff",
+      "secondary": "#5fafff"
+    },
+    "deprecations": {
+      "primary": "#ff79c6",
+      "secondary": "#ff5faf"
+    }
+  }
+}
